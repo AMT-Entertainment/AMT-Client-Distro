@@ -30,7 +30,7 @@
       "description": "Modern Minecraft Experience with AMT Client",
       "icon": "https://lh3.googleusercontent.com/d/13CFNTNISmSZOz1EKxEAYYfG9R0FXGmTB",
       "version": "1.0.0",
-      "address": "example.com",
+      "address": "amt.serveminecraft.net",
       "minecraftVersion": "26.1.2",
       "discord": {
         "shortId": "AMT",
@@ -47,7 +47,7 @@
           "artifact": {
             "size": 0,
             "MD5": "",
-            "url": "http://example.com/path/to/fabric-loader-0.16.9.jar"
+            "url": "https://github.com/FabricMC/fabric-loader/archive/refs/tags/0.19.3.zip"
           },
           "subModules": [
             {
