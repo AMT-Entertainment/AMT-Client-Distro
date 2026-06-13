@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "000000000000000000",
+    "smallImageText": "AMT Client",
+    "smallImageKey": "seal-circle"
+  },
+  "rss": "https://example.com/rss",
+  "servers": [
+    {
+      "id": "amt-network",
+      "name": "AMT Network",
+      "description": "This is the main placeholder server.",
+      "icon": "https://drive.google.com/uc?export=view&id=1BHv_0CyrdoaY1LfT1R2oMZBiJp3vk3sb",
+      "version": "1.0.0",
+      "address": "amt.serveminecraft.net",
+      "minecraftVersion": "26.1.2",
+      "discord": {
+        "shortId": "amtsrv",
+        "largeImageText": "Playing on AMT Network",
+        "largeImageKey": "server-icon"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": []
+    },
+    {
+      "id": "AMT-Client-26.1.2",
+      "name": "AMT Client",
+      "description": "Modern Minecraft Experience with AMT Client",
+      "icon": "https://lh3.googleusercontent.com/d/13CFNTNISmSZOz1EKxEAYYfG9R0FXGmTB",
+      "version": "1.0.0",
+      "address": "example.com",
+      "minecraftVersion": "26.1.2",
+      "discord": {
+        "shortId": "AMT",
+        "largeImageText": "AMT Client",
+        "largeImageKey": "server-icon"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "http://example.com/path/to/fabric-loader-0.16.9.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.1.2-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "http://example.com/path/to/26.1.2-fabric-0.16.9.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.modmenu:modmenu:18.0.0-alpha.8",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/m6Srr33m/versions/18.0.0-alpha.8/modmenu-18.0.0-alpha.8.jar"
+          }
+        },
+        {
+          "id": "iris:iris:1.10.9",
+          "name": "Iris Shaders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/YL577FCG/versions/1.10.9%2B26.1-fabric/iris-1.10.9%2B26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "custom:modern-ui-mod:3.12.0.4",
+          "name": "Modern UI Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/YI9C7W6m/versions/WKMJCR00/modernui-fabric-3.12.0.4.jar"
+          }
+        },
+        {
+          "id": "custom:custom-hud-mod:26.1.2",
+          "name": "Custom HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/V1LiiWq6/versions/spoks-hud-plus-1.0.0-26.1.2.jar"
+          }
+        },
+        {
+          "id": "tr7zw:skinlayers3d:1.11.1",
+          "name": "3D Skin Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/8kxiY3G1/skinlayers3d-fabric-1.11.1-mc26.1.jar?mr_download_reason=standalone&mr_game_version=26.1.2&mr_loader=fabric"
+          }
+        },
+        {
+          "id": "reeses_sodium_options:reeses-sodium-options:2.0.5",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/p88Tf9YM/reeses-sodium-options-fabric-2.0.5%2Bmc26.1.1.jar?mr_download_reason=standalone&mr_game_version=26.1.2&mr_loader=fabric"
+          }
+        },
+        {
+          "id": "henkelmax:simple-voice-chat:2.6.17",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://cdn.modrinth.com/data/9eGKb6g1/versions/fabric-2.6.17%2B26.1.2/voicechat-fabric-2.6.17%2B26.1.2.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Hypixel_Network",
+      "name": "Hypixel",
+      "description": "The Hypixel Minecraft Server",
+      "icon": "https://user-images.githubusercontent.com/49322497/70186527-61601080-16ec-11ea-8e0e-49c0f5e4edde.png",
+      "version": "1.0.0",
+      "address": "mc.hypixel.net",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "Hypixel",
+        "largeImageText": "Playing on Hypixel",
+        "largeImageKey": "server-icon"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": []
+    }
+  ]
+}
