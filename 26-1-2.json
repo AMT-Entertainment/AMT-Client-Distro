@@ -11,7 +11,7 @@
       "id": "amt-network",
       "name": "AMT Network",
       "description": "This is the main placeholder server.",
-      "icon": "https://drive.google.com/uc?export=view&id=1BHv_0CyrdoaY1LfT1R2oMZBiJp3vk3sb",
+      "icon": "https://lh3.googleusercontent.com/d/1BHv_0CyrdoaY1LfT1R2oMZBiJp3vk3sb",
       "version": "1.0.0",
       "address": "amt.serveminecraft.net",
       "minecraftVersion": "26.1.2",
@@ -72,22 +72,22 @@
         },
         {
           "id": "custom:modern-ui-mod:3.12.0.4",
-          "name": "Modern UI Mod",
+          "name": "Quick Access",
           "type": "FabricMod",
           "artifact": {
             "size": 75,
-            "MD5": "ec2c6925a7dafdc0064179af269db092",
-            "url": "https://cdn.modrinth.com/data/YI9C7W6m/versions/WKMJCR00/modernui-fabric-3.12.0.4.jar"
+            "MD5": "a39a3511de8eb3acf0ae37f00e6c33d8",
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/bFs8UXPD/jei-26.1.2-fabric-29.6.2.31.jar?mr_download_reason=standalone&mr_game_version=26.1.2&mr_loader=fabric"
           }
         },
         {
-          "id": "custom:custom-hud-mod:26.1.2",
+          "id": "custom:custom-hud-mod:26.1.1",
           "name": "Custom HUD",
           "type": "FabricMod",
           "artifact": {
             "size": 75,
             "MD5": "ec2c6925a7dafdc0064179af269db092",
-            "url": "https://cdn.modrinth.com/data/V1LiiWq6/versions/spoks-hud-plus-1.0.0-26.1.2.jar"
+            "url": "https://cdn.modrinth.com/data/YczfGVFH/versions/TubDjZgw/perfhud-1.0.1-fabric.jar?mr_download_reason=standalone&mr_game_version=26.1.1&mr_loader=fabric"
           }
         },
         {
@@ -116,8 +116,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 75,
-            "MD5": "ec2c6925a7dafdc0064179af269db092",
-            "url": "https://cdn.modrinth.com/data/9eGKb6g1/versions/fabric-2.6.17%2B26.1.2/voicechat-fabric-2.6.17%2B26.1.2.jar"
+            "MD5": "d5dca4604c722c4f7cde933633de3b0a",
+            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/DpT86E4Q/voicechat-fabric-2.6.18%2B26.1.2.jar?mr_download_reason=standalone&mr_game_version=26.1.2&mr_loader=fabric"
           }
         }
       ]
